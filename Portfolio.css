@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header {
+    font-size: 200%;
+}
+
+h1 {
+    font-size: large;
+    border: darkblue;
+    box-sizing: border-box;
+    box-shadow: darkgreen;
+}
+
+.Headings {
+    list-style: none;
+    padding-left: 20pt;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h2 {
+    font-size: 100%;
+}
+
+.About {
+    box-sizing:content-box;
+    box-shadow: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+ul {
+    list-style: none;
+}
+
+.Work {
+    font-size: 100%;
+}
+
+#placeholder1 {
+    border: blue;
+    border-style: solid;
+    box-sizing: border-box;
+    position: relative;
+    color: red;
+    background-color: salmon;
+}
+
+#placeholder2 {
+    border:blueviolet;
+    border-style: dotted;
+    box-sizing: border-box;
+    position: relative;
+    color:coral;
+}
+
+#placeholder3 {
+    border: cornflowerblue;
+    border-style: ridge;
+    box-shadow: darkblue;
+    position: relative;
+    left: auto;
+}
+
+#placeholder4 {
+    border: darkred;
+    border-style: dotted;
+    color: darkred;
+}
+
+#placeholder5 {
+    border: deeppink;
+    color: fuchsia;
+}
+
+.Resume {
+    font-size: 100%;
+    }
